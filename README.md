@@ -1,45 +1,70 @@
-# 📋 Sobre a atividade
+# Getting Started with Create React App
 
-Nesta atividae o principal objetivo é entender como podemos utilizar as renderizações condicionais no react, com um exemplo simples.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# ℹ️ Informações úteis
+## Available Scripts
 
-## Resultado
+In the project directory, you can run:
 
-![](https://i.imgur.com/9MBjLUa.gif)
+### `yarn start`
 
-## 🖐️🍝Mão na massa!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1.  Crie um projeto react usando o comando: `yarn create react-app***nomedoseuprojeto***`
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-2.  Após isso, abra seu projeto no seu editor e execute o comando `yarn start` para iniciar o servidor com seu app.
+### `yarn test`
 
-3.  Crie um componente chamado `RestrictedPage` dentro de uma pasta `components`, assim como vimos nas aulas anteriores.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-    ![](https://i.imgur.com/FXxrsot.png)
+### `yarn build`
 
-4.  O componente `App.js` deve possuir um **state** _isLoggedIn_, _setIsLoggedIn_ que é instanciado a partir do useState e inicializado como false.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-5.  Além disso, o App possui:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-    *   Uma constante `user` que é uma string com o seu nome
-    *   Uma função Login que atualiza o state isLoggedIn para true
-    *   Uma função Logout que atualiza o state isLoggedIn para false
-6.  O componente `RestrictedPage` recebe quatro props `{isLoggedIn, user, Login, Logout}`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-7.  O componente RestrictedPage deverá:
+### `yarn eject`
 
-    *   Vamos receber o state isLoggedIn através de props, se esse state for verdadeiro, ele deverá renderizar a mensagem _Bem-vindo {user}_ e um button chamando a função **Logout**
-    *   Caso a props seja false ele deverá renderizar a mensagem _Você não pode acessar essa página_ e um button chamando a função **Login**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## 💪Agora é com você
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-*   Estilize sua aplicação, **seja original** 😉
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-# 💡Conhecimentos aplicados:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-*   Fundamentos do React
-*   Passagem de valores para um componente
-*   Componentização e Reutilização
-*   Utilização dos valores vindo das props no componente
-*   Renderização condicional
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
